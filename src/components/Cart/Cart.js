@@ -4,7 +4,7 @@ import "./Cart.css";
 const Cart = ({ cart, handleRemoveShirt }) => {
   return (
     <div>
-      <h3 className={`bold ${cart.length == 2 ? "blue" : "undefined"}`}>
+      <h3 className={`bold ${cart.length === 2 ? "blue" : "undefined"}`}>
         Cart Summary
       </h3>
       <h4>Total Product: {cart.length}</h4>
