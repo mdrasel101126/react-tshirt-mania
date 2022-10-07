@@ -1,0 +1,8 @@
+.header-container{
+    margin-bottom: 50px;
+}
+.header-container a{
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
